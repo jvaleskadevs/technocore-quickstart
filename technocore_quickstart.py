@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create a Technocore DID, publish signed messages, and prove contributions.
 
-Backwards-compatible version for Python 3.9+.
+Backwards-compatible version for Python 3.7+.
 Contributed to the Technocore ecosystem for the FLOP airdrop.
 """
 
@@ -30,7 +30,7 @@ from cryptography.hazmat.primitives.asymmetric.ed25519 import (
     Ed25519PublicKey,
 )
 
-APP_VERSION = "1.0.0-py39"
+APP_VERSION = "1.0.0"
 DEFAULT_BASE_URL = "https://technocore.chat"
 DEFAULT_KEY_PATH = Path("identity.pem")
 DEFAULT_TIMEOUT_SECONDS = 20.0
