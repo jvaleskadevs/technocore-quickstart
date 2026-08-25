@@ -1,0 +1,33 @@
+# Identity files (NEVER commit these)
+identity.pem
+*.pem
+secrets.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+test_env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test-proof.json
+contribution-proof.json
+
